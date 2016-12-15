@@ -1,0 +1,33 @@
+[
+  {
+    "type": "base_delay",
+    "message0": "Delay %1 %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "DELAY_TIME",
+        "check": "Number"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "UNIT",
+        "options": [
+          [
+            "seconds",
+            "1000"
+          ],
+          [
+            "milliseconds",
+            "1"
+          ]
+        ]
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 120,
+    "tooltip": "",
+    "helpUrl": "http://arduino.cc/en/Reference/delay"
+  }
+]
