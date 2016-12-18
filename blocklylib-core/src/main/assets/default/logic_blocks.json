@@ -1,7 +1,7 @@
 [
   {
     "type": "controls_if",
-    "message0": "if %1 do %2",
+    "message0": "if %1 do %2 Else %3",
     "args0": [
       {
         "type": "input_value",
@@ -11,6 +11,10 @@
       {
         "type": "input_statement",
         "name": "DO0"
+      },
+      {
+        "type": "input_statement",
+        "name": "ELSE"
       }
     ],
     "previousStatement": null,
@@ -37,6 +41,22 @@
           [
             "\u2260",
             "NEQ"
+          ],
+          [
+            "<",
+            "LT"
+          ],
+          [
+            "\u2264",
+            "LTE"
+          ],
+          [
+            ">",
+            "GT"
+          ],
+          [
+            "\u2265",
+            "GTE"
           ]
         ]
       },

@@ -220,10 +220,6 @@
           [
             "lower case",
             "LOWERCASE"
-          ],
-          [
-            "Title Case",
-            "TITLECASE"
           ]
         ]
       },
@@ -240,26 +236,8 @@
   },
   {
     "type": "text_trim",
-    "message0": "trim spaces from %1 of %2",
+    "message0": "trim spaces from %1",
     "args0": [
-      {
-        "type": "field_dropdown",
-        "name": "MODE",
-        "options": [
-          [
-            "both sides",
-            "BOTH"
-          ],
-          [
-            "left side",
-            "LEFT"
-          ],
-          [
-            "right side",
-            "RIGHT"
-          ]
-        ]
-      },
       {
         "type": "input_value",
         "name": "TEXT",
@@ -270,51 +248,5 @@
     "colour": 160,
     "tooltip": "Return a copy of the text with spaces removed from one or both ends.",
     "helpUrl": "https://github.com/google/blockly/wiki/Text#trimming-removing-spaces"
-  },
-  {
-    "type": "text_print",
-    "message0": "print %1",
-    "args0": [
-      {
-        "type": "input_value",
-        "name": "TEXT"
-      }
-    ],
-    "previousStatement": null,
-    "nextStatement": null,
-    "colour": 160,
-    "tooltip": "Print the specified text, number or other value.",
-    "helpUrl": "https://github.com/google/blockly/wiki/Text#printing-text"
-  },
-  {
-    "type": "text_prompt_ext",
-    "message0": "prompt for %1 with message %2",
-    "args0": [
-      {
-        "type": "field_dropdown",
-        "name": "TYPE",
-        "options": [
-          [
-            "text",
-            "TEXT"
-          ],
-          [
-            "number",
-            "NUMBER"
-          ]
-        ]
-      },
-      {
-        "type": "input_value",
-        "name": "TEXT",
-        "check": "String"
-      }
-    ],
-    "previousStatement": null,
-    "nextStatement": null,
-    "colour": 160,
-    "tooltip": "Prompt for user for some text or a number.",
-    "helpUrl": "https://github.com/google/blockly/wiki/Text#getting-input-from-the-user",
-    "TODO(#394)": "https://github.com/google/blockly-android/issues/394"
   }
 ]
